@@ -1,0 +1,14 @@
+name: BackupPlugin
+version: 1.0.0
+main: de.backup.BackupPlugin
+api-version: '1.21'
+description: Automatische Welt-Backups als ZIP
+commands:
+  backup:
+    description: Backups verwalten
+    usage: /backup <now|list|reload>
+    permission: backup.admin
+permissions:
+  backup.admin:
+    description: Erlaubt /backup
+    default: op

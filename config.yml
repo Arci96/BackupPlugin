@@ -1,0 +1,18 @@
+# Abstand zwischen automatischen Backups in Minuten (0 = aus)
+interval-minutes: 60
+
+# Wie viele Backups behalten werden. Die ältesten werden gelöscht (0 = alle behalten)
+max-backups: 10
+
+# Ordner für die Backups (relativ zum Server-Ordner)
+backup-folder: backups
+
+# Welche Welten gesichert werden. Leer = alle geladenen Welten
+# Beispiel: worlds: [world, world_nether, world_the_end]
+worlds: []
+
+# ZIP-Kompression: 0 = keine (schnell, groß) bis 9 = maximal (langsam, klein)
+compression-level: 5
+
+# Backup-Start und -Ende im Chat ankündigen
+announce: true
